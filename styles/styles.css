@@ -9,6 +9,7 @@ body * {
     font-weight: normal;
 }
 
+
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -151,7 +152,7 @@ body * {
 
 .block-button :hover {
     background-color: #E3B873;
-    border-color: transparent;
+    border-color: white;
 }
 
 .projects {
@@ -268,6 +269,11 @@ body * {
     height: 10px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50%;   
+    cursor: pointer;
+}
+
+.dot:hover {
+    background: #FFFFFF;
 }
 
 .projects_completed_foto {
@@ -542,14 +548,12 @@ body * {
 }
 
 .measure {
-    
     width: 1256px;                
     height: 750px;
     margin: 0 auto;
 }
 
 .repair_measure {
-    
     display: flex;
     background-image: url(../img/types4.jpg);
     background-repeat: no-repeat;
@@ -561,8 +565,6 @@ body * {
     width: 450px;
     height: 500px;
     margin: 70px 60px 54px 200px;
-    
-    
 }
 
 .measure_list_item {                                         
@@ -665,12 +667,12 @@ body * {
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 40px 20px 20px 240px;
+    cursor: pointer;
 }
 
 .repair_save {
     margin: 30px 0 0 20px;
     display: flex;
-    
 }
 
 .repair_save_text {
@@ -688,10 +690,9 @@ body * {
     background-image: url(../img/city.jpg);
     position: relative;
     margin-top: 300px;
-    
 }
 
-    
+ 
 
 
 .container_clients {
@@ -764,7 +765,6 @@ body * {
 }
 
 .clients_item_data {
-    
     display: flex;
 }
 
@@ -775,7 +775,6 @@ body * {
     color: #181818;
     width: 170px;
     margin-top: 40px;
-
 }
 
 .clients_review {
@@ -853,7 +852,6 @@ body * {
     color: #FFFFFF;
     background-color: black;
     border: none;
-    
 }
 
 .information_form_data {
