@@ -163,7 +163,7 @@ body * {
 }
 
 .projects-container {
-    width: 1171px;
+    width: auto;     
     height: 552px;
     padding-top: 102px;
 }
@@ -196,7 +196,7 @@ body * {
 }
 
 .projects_completed {
-    width: 1171px;
+    width: 1171px;         
     height: 482px;
     display: flex;
 }
@@ -225,6 +225,10 @@ body * {
     color: #FFFFFF;
     margin-top: 34px;
     margin-bottom: 0;
+}
+
+.projects_foto_mobile {
+    display: none;
 }
 
 .projects_data {
@@ -543,13 +547,13 @@ body * {
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 11px;
     position: relative;
 }
 
 .measure {
     width: 1256px;                
-    height: 750px;
+    height: 1000px;         /*750px*/
     margin: 0 auto;
 }
 
@@ -592,6 +596,7 @@ body * {
     line-height: 25px;
     color: #FFFFFF;
     padding: 10px;
+    margin-top: -16px;       /*выровнять текст относительно псевдокласса before получилось только так. Есть другие способы?*/
     margin-right: 10px;
     float: left;  
 }
@@ -686,10 +691,10 @@ body * {
 
 .clients {
     display: flex;
-    height: 750px;
+    height: 750px;           
     background-image: url(../img/city.jpg);
     position: relative;
-    margin-top: 300px;
+    /*margin-top: 300px;*/
 }
 
  
@@ -697,11 +702,11 @@ body * {
 
 .container_clients {
     width: 1236px;                 /*1256?*/  /*1440*/
-    height: 1300px;
+    height: 750px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: -600px auto 0 auto;
+    /*justify-content: center;*/
+    margin: -300px auto 0 auto;
 }
 
 .clients_container_title {

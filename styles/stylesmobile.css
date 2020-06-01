@@ -1,0 +1,694 @@
+
+@media only screen and (max-width: 1300px) {
+    .body {
+        margin: 0 auto;
+    }
+   
+    .header_navigation, .projects_navigation, .slide, .projects_completed_foto, .button_request, .measure, .clients, .footer_content {
+        display: none;
+    }
+
+    .wrapper, .projects, .information_form {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 23px;
+        line-height: 132.83%;
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .block_text {
+        font-size: 14px;
+        line-height: 135.84%;
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .block-button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-button_form {
+        width: 600px;
+        margin-top: 30px;
+    }
+
+    .projects_foto_mobile {
+        display: flex;
+        width: 340px;
+        background-image: url(../img/mobile.jpg);
+        height: 250px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .projects_completed_info  {
+        height: 650px;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+    
+    .projects_completed, .projects-container, .repair {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .projects_title {
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+    }
+
+    .projects_text {
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .projects_data_one, .projects_data_two {
+        width: 170px;
+    }
+
+    .projects_data_title {
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+
+    .projects_data_info {
+        font-size: 11px;
+        line-height: 135.84%;
+    }
+
+    .control {
+        max-width: 100%;
+        background-color: black;
+    }
+
+    .control_container_video, .container_video_overlay {
+        width: 340px;
+        height: 250px;
+    }
+
+    .control_container_text {
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        width: 340px;
+    }
+
+    .control_container_form {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 340px;
+        height: 320px;
+        margin-top: 50px;
+    }
+
+    .form_item {
+        width: 340px;
+        border-bottom: 1px solid #FFFFFF;
+        margin-top: 20px;
+    }
+
+    .form_label {
+        text-align: right;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+       
+    .form_input {
+        font-size: 14px;
+        line-height: 138.72%;
+        color: #FFFFFF;
+        background-color: black;
+        text-decoration: none;
+    }
+
+    .form_checkbox {
+        margin: -110px auto 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 340px;
+        justify-content: flex-start;
+    }
+
+    .container_label {
+        font-size: 14px;
+        line-height: 163.68%;
+        color: #FFFFFF;
+    }
+
+    .form_button {
+        width: 340px;
+        height: 51px;
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        border-radius: 2px;
+        outline: 0;
+        border: 0;
+        padding: 13px 33px;
+        color: white;
+        text-transform: uppercase;
+        font-family: Nunito Sans;
+        font-style: italic;
+        font-size: 11px;
+        line-height: 15px;
+        cursor: pointer;
+        margin-top: 80px;
+    }
+
+    .repair_types {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .repair {
+        height: 2200px;
+    }
+
+    .types_card {
+        width: 340px;
+        margin-top: 20px;
+        
+    }
+
+    .types_card_list {
+        width: 270px;
+        height: 241px;
+        padding: 10px 11px 0px 4px;
+        margin: -150px 20px 0px 0px;
+    }
+
+    .card_block {
+        margin: 0px 0 0 0;
+    }
+
+    .card_title {
+        margin: 5px auto;
+    }
+
+    .information_form_data {
+        flex-direction: column;
+        width: 340px;
+        height: 130px;
+    }
+
+    .information_label {
+        width: 340px;
+        margin-bottom: 15px;
+    }
+
+    .information_form_question {
+        width: 340px;
+        margin-top: 10px;
+    }
+
+    .information_checkbox {
+        margin: 0 auto;
+        width: 340px;
+    }
+
+    .information_button {
+        width: 340px;
+    }
+
+    .information {
+        background-color: black;
+        background-image: none;
+    }
+
+    .map_item {
+        width: 340px;
+        height: 250px;
+        margin-top: -500px;
+    }
+
+    .information_address {
+        width: 340px;
+        margin-top: 300px;
+    }
+}
+
+/*
+body * {
+    box-sizing: border-box;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1256px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.logo {
+    color: #E3B873;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+
+.tel a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+
+.block {
+    background-image: url(../img/first.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.container-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    }
+
+.block-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    font-family: Yeseva One;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.span {
+    color: #E3B873 ;
+    font-family: Yeseva One;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;                               
+}
+
+.block_text {
+    color: #FFFFFF;
+}
+
+.block-button {
+    display: flex;
+}
+
+.block-button_form {
+    background: none;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-family: Nunito Sans;              
+    font-style: italic;
+    font-size: 11px;
+    line-height: 15px;
+    margin-right: 20px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.block-button :hover {
+    background-color: #E3B873;
+    border-color: white;
+}
+
+.projects_title {
+    font-family: Yeseva One;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.projects_text {
+    color: #FFFFFF;
+}
+
+.projects_foto_mobile {
+    display: flex;
+    max-width: 100%;
+    background-image: url(../img/mobile.jpg);
+    height: 250px;
+}
+
+
+.projects_data {
+    display: flex;  
+}
+
+.projects_data_cost {
+    margin-top: 40px;
+}
+
+.projects_data_title {
+    font-family: Yeseva One;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.projects_data_info {
+    color: #FFFFFF;
+}
+
+
+.control {
+    height: 1031px;
+    background-color: none;
+}
+
+.control_container_title {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.control_container_img {
+    text-align: center;
+}
+
+.control_container_img::before {
+    content: "";
+    background-image: url(../img/line.svg);
+    width: 32px;
+    height: 4px;
+    display: inline-block;
+    margin: 0 5px 10px;
+}
+
+.control_container_img::after {
+    content: "";
+    background-image: url(../img/line.svg);
+    width: 32px;
+    height: 4px;
+    display: inline-block;
+    margin: 0 5px 10px;
+}
+
+.control_container_video {
+    background-image: url(../img/video.jpg);
+    display: block;
+    margin: 30px auto 0 auto;
+    z-index: -1;
+}
+
+.container_video_overlay {
+    background: rgba(0, 0, 0, 0.8);
+    display: block;
+    margin: 30px auto 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.video_icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.hr {
+    color: #E3B873;
+    width: 55px;
+    height: 1.5px;
+    margin-top: 65px;
+}
+
+.control_container_form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_item {
+    height: 51px;
+}
+
+.container_label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #E3B873;
+}
+
+.container_label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+ 
+.container_label input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+
+.checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.repair {
+    background-color: none;
+    margin: 0 auto;
+}
+
+.repair_container_title {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.repair_container_img {
+    text-align: center;
+}
+
+.repair_container_img::before {
+    content: "";
+    background-image: url(../img/line.svg);
+    width: 32px;
+    height: 4px;
+    display: inline-block;
+    margin: 0 5px 10px;
+    
+}
+
+.repair_container_img::after {
+    content: "";
+    background-image: url(../img/line.svg);
+    width: 32px;
+    height: 4px;
+    display: inline-block;
+    margin: 0 5px 10px;
+}
+
+.repair_types {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.types_card_list {
+    background-color: white;
+    position: relative;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03)
+}
+
+.card_title {
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+
+.card_list {
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.card_block {
+    display: block;
+    width: 228px;
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3)
+    
+}
+    
+.types_card_block {
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+}
+
+.information_form {
+    height: 450px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: -220px auto 0 auto;
+    justify-content: center;
+    position: relative;
+}
+
+.information_form_title {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.information_form_label {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.information_form_input {
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: black;
+    border: none;
+}
+
+.information_form_data {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.information_label {
+    height: 48px;
+    border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
+}
+
+.information_form_question {
+    height: 50px;
+    border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
+}
+
+.information_button {
+    margin: 20px auto;
+    height: 51px;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.information {
+    height: 1300px;
+}
+
+
+.information_address_text {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.information_social {
+    margin: 30px auto 0 auto;
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map_item {
+    display: block;
+    height: auto;
+}
+
+
