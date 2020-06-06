@@ -8,7 +8,25 @@
         display: none;
     }
 
-    .wrapper, .projects, .information_form {
+    .header_content {
+        width: 340px;
+    }
+    
+    .wrapper {
+        width: 330px;
+        margin: 0 auto;
+    } 
+
+    .block {
+        height: 476px;
+        padding-top: 50px;
+    }
+
+    .projects {
+        height: 1000px;
+    }
+
+    .projects, .information_form {
         margin: 0 auto;
         max-width: 100%;
     }
@@ -16,32 +34,34 @@
     .title {
         font-size: 23px;
         line-height: 132.83%;
-        margin-left: 30px;
+       /* margin-left: 30px;*/
         text-align: center;
     }
 
     .block_text {
         font-size: 14px;
         line-height: 135.84%;
-        margin-left: 30px;
+        /*margin-left: 30px;*/
         text-align: center;
     }
 
     .block-button {
         flex-direction: column;
         align-items: center;
+        
     }
 
     .block-button_form {
-        width: 600px;
+        width: 330px;
         margin-top: 30px;
+        margin-right: 0px;
     }
 
     .projects_foto_mobile {
         display: flex;
         width: 340px;
         background-image: url(../img/mobile.jpg);
-        height: 250px;
+        height: 240px;
         justify-content: space-between;
         align-items: center;
     }
@@ -51,6 +71,10 @@
         align-items: center;
         margin: 0 auto;
         max-width: 1300px;
+    }
+
+    .projects-container {
+        padding-top: 40px;
     }
     
     .projects_completed, .projects-container, .repair {
@@ -88,6 +112,7 @@
     .control {
         max-width: 100%;
         background-color: black;
+        height: 900px;
     }
 
     .control_container_video, .container_video_overlay {
@@ -115,7 +140,7 @@
     .form_item {
         width: 340px;
         border-bottom: 1px solid #FFFFFF;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .form_label {
@@ -134,7 +159,7 @@
     }
 
     .form_checkbox {
-        margin: -110px auto 0 auto;
+        margin: -90px auto 0 auto;
         display: flex;
         justify-content: center;
         width: 340px;
@@ -163,23 +188,28 @@
         font-size: 11px;
         line-height: 15px;
         cursor: pointer;
-        margin-top: 80px;
+        margin-top: 120px;
     }
 
     .repair_types {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        margin-top: 10px;
     }
 
     .repair {
-        height: 2200px;
+        height: 1925px;
+        margin-top: 90px;
     }
 
     .types_card {
-        width: 340px;
         margin-top: 20px;
-        
+        max-width: 100%;
+    }
+
+    .types_card_img {
+        width: 340px;
     }
 
     .types_card_list {
@@ -191,21 +221,63 @@
 
     .card_block {
         margin: 0px 0 0 0;
+        width: 190px;
+        height: 40px;
+    }
+
+    .types_card_block {
+        font-size: 15px;
+        line-height: 138.6%;
+        padding-top: 7px;
     }
 
     .card_title {
         margin: 5px auto;
     }
 
+    .types_card_mobile {
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        margin-top: 50px;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .types_card_mobile_title {
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+        width: 300px;
+    }
+
+    .types_card_mobile_img {
+        display: flex;
+        width: 340px;
+        background-image: url(../img/types5.jpg);
+        height: 240px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .information_form {
+        padding-top: 210px;
+    }
+
     .information_form_data {
         flex-direction: column;
         width: 340px;
-        height: 130px;
+        height: 150px;
     }
 
     .information_label {
         width: 340px;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
     }
 
     .information_form_question {
@@ -225,6 +297,7 @@
     .information {
         background-color: black;
         background-image: none;
+        height: 1000px;
     }
 
     .map_item {
@@ -235,7 +308,12 @@
 
     .information_address {
         width: 340px;
-        margin-top: 300px;
+        margin-top: 400px;
+    }
+
+    .container_information {
+        background: black;
+        height: 1050px;
     }
 }
 

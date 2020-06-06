@@ -503,7 +503,7 @@ body * {
 
 .repair_types {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 35px;
 }
 
@@ -549,6 +549,10 @@ body * {
     text-align: center;
     padding-top: 11px;
     position: relative;
+}
+
+.types_card_mobile {
+    display: none;
 }
 
 .measure {
